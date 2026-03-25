@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  mongo-catalog:
+    image: mongo:6.0
+    container_name: catalog-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: CatalogDb
+    volumes:
+      - catalog-mongo-data:/data/db
+
+volumes:
+  catalog-mongo-data:
