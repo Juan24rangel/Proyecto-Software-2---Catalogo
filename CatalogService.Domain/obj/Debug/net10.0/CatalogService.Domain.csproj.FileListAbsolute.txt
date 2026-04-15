@@ -21,3 +21,4 @@ C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\o
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.pdb
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\ref\CatalogService.Domain.dll
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.sourcelink.json

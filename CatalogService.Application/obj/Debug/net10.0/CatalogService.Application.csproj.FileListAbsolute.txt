@@ -28,3 +28,4 @@ C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Applicat
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Application\obj\Debug\net10.0\refint\CatalogService.Application.dll
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Application\obj\Debug\net10.0\CatalogService.Application.pdb
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Application\obj\Debug\net10.0\ref\CatalogService.Application.dll
+C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Application\obj\Debug\net10.0\CatalogService.Application.sourcelink.json

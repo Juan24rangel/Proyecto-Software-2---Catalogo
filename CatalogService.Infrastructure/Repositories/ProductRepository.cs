@@ -43,6 +43,19 @@ namespace CatalogService.Infrastructure.Repositories
                 .ToListAsync();
         }
 
+        public async Task<IEnumerable<Product>> SearchAsync(string searchText, int page, int pageSize)
+        {
+            // Búsqueda de texto usando índice de texto creado en el constructor (HU-05)
+            var filter = Builders<Product>.Filter.Text(searchText) & 
+                         Builders<Product>.Filter.Eq(p => p.IsActive, true);
+            
+            return await _products
+                .Find(filter)
+                .Skip((page - 1) * pageSize)
+                .Limit(pageSize)
+                .ToListAsync();
+        }
+
         public async Task CreateAsync(Product product)
         {
             await _products.InsertOneAsync(product);
