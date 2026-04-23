@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+option csharp_namespace = "CatalogService.API.Protos";
+
+package catalog;
+
+// ============================================================================
+// Servicio gRPC de Catálogo para integraci​ón con otros microservicios (HU-09)
+// ============================================================================
+
+service Catalog {
+  rpc GetProduct(GetProductRequest) returns (ProductResponse);
+  rpc GetProducts(GetProductsRequest) returns (GetProductsResponse);
+  rpc GetProductsByIds(GetProductsByIdsRequest) returns (GetProductsResponse);
+}
+
+// ============================================================================
+// Mensajes de Request
+// ============================================================================
+
+message GetProductRequest {
+  string product_id = 1;
+}
+
+message GetProductsRequest {
+  int32 page = 1;
+  int32 page_size = 2;
+  string search = 3;  // Opcional
+  string category_id = 4;  // Opcional
+}
+
+message GetProductsByIdsRequest {
+  repeated string product_ids = 1;
+}
+
+// ============================================================================
+// Mensajes de Response
+// ============================================================================
+
+message ProductResponse {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  double price = 4;
+  int32 stock = 5;
+  string category_id = 6;
+  repeated string images = 7;
+  repeated string tags = 8;
+  bool is_active = 9;
+  string created_at = 10;
+  string updated_at = 11;
+  string created_by = 12;
+}
+
+message GetProductsResponse {
+  int32 page = 1;
+  int32 page_size = 2;
+  int32 total = 3;
+  repeated ProductResponse products = 4;
+}

@@ -12,13 +12,13 @@ C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService\CatalogS
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\bin\Debug\net10.0\CatalogService.Domain.deps.json
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\bin\Debug\net10.0\CatalogService.Domain.dll
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\bin\Debug\net10.0\CatalogService.Domain.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.csproj.AssemblyReference.cache
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.AssemblyInfoInputs.cache
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.AssemblyInfo.cs
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.sourcelink.json
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.dll
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\refint\CatalogService.Domain.dll
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.pdb
 C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\ref\CatalogService.Domain.dll
-C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.csproj.AssemblyReference.cache
-C:\Users\ASUS\OneDrive\Escritorio\Estudio\CatalogService\CatalogService.Domain\obj\Debug\net10.0\CatalogService.Domain.sourcelink.json

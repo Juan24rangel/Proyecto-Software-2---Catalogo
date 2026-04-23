@@ -1,6 +1,7 @@
 using CatalogService.API.DTOs;
 using CatalogService.Domain.Entities;
 using CatalogService.Domain.Interfaces;
+using CatalogService.Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CatalogService.API.Controllers
@@ -10,10 +11,12 @@ namespace CatalogService.API.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IProductRepository _repository;
+        private readonly IImageValidator _imageValidator;
 
-        public ProductsController(IProductRepository repository)
+        public ProductsController(IProductRepository repository, IImageValidator imageValidator)
         {
             _repository = repository;
+            _imageValidator = imageValidator;
         }
 
         // HU-01 — Listar productos
@@ -71,6 +74,14 @@ namespace CatalogService.API.Controllers
 
             if (request.Stock < 0)
                 return BadRequest(new { message = "El stock no puede ser negativo." });
+
+            // HU-08 — Validar imágenes
+            if (request.Images != null && request.Images.Count > 0)
+            {
+                var (isValid, errorMessage) = _imageValidator.ValidateImageUrls(request.Images);
+                if (!isValid)
+                    return BadRequest(new { message = errorMessage });
+            }
 
             // Crear objeto Product
             var product = new Product
